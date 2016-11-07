@@ -1,0 +1,17 @@
+package com.stefanini.repository;
+
+import javax.persistence.Entity;
+import javax.persistence.EntityManager;
+
+import com.stefanini.model.Agente;
+
+public class AgenteRepository {
+	
+	private EntityManager manager;
+
+	public void incluir(Agente agente) {
+		this.manager.persist(agente);
+		
+	}
+
+}

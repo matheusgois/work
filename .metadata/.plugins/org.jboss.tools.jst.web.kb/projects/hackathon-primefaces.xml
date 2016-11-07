@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource declaration="true" name="%1;" path="%0"/>
+   <linked-resource name="%3;" path="%2"/>
+   <linked-resource name="%0;" path="%4"/>
+   <linked-resource name="%4;" path="%5"/>
+   <linked-resource name="%5;%7;" path="%6"/>
+   <linked-resource name="%2;" path="%7"/>
+   <linked-resource name="%3;" path="%8"/>
+  </core>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="25" name="%8" offset="475" path="%9"/>
+   <linked-el length="34" name="%8" offset="669" path="%9"/>
+   <linked-el length="35" name="%8" offset="700" path="%10"/>
+   <linked-el length="33" name="%8" offset="569" path="%9"/>
+   <linked-el length="26" name="%8" offset="481" path="%10"/>
+   <linked-el length="34" name="%8" offset="579" path="%10"/>
+   <linked-el length="25" name="%11" offset="475" path="%9"/>
+   <linked-el length="34" name="%11" offset="669" path="%9"/>
+   <linked-el length="35" name="%11" offset="700" path="%10"/>
+   <linked-el length="33" name="%11" offset="569" path="%9"/>
+   <linked-el length="26" name="%11" offset="481" path="%10"/>
+   <linked-el length="20" name="%11" offset="767" path="%9"/>
+   <linked-el length="34" name="%11" offset="579" path="%10"/>
+   <linked-el length="25" name="%3" offset="475" path="%9"/>
+   <linked-el length="34" name="%3" offset="669" path="%9"/>
+   <linked-el length="35" name="%3" offset="700" path="%10"/>
+   <linked-el length="33" name="%3" offset="569" path="%9"/>
+   <linked-el length="26" name="%3" offset="481" path="%10"/>
+   <linked-el length="20" name="%3" offset="767" path="%9"/>
+   <linked-el length="34" name="%3" offset="579" path="%10"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/repository/DenuncianteRepository.java" value="%5"/>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/model/Agente.java" value="%8"/>
+  <alias path="/hackathon-primefaces/src/main/webapp/index.xhtml" value="%9"/>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/util/EntityManagerProducer.java" value="%6"/>
+  <alias path="agenteMB" value="%11"/>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/bean/AgenteBean.java" value="%3"/>
+  <alias path="denunciaMB" value="%1"/>
+  <alias path="/hackathon-primefaces/src/main/webapp/pages/teste.xhtml" value="%10"/>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/bean/DenunciaBean.java" value="%0"/>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/service/AgenteService.java" value="%2"/>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/repository/AgenteRepository.java" value="%7"/>
+  <alias
+   path="/hackathon-primefaces/src/main/java/com/stefanini/service/DenuncianteService.java" value="%4"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>
